@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/race-scoreboard/static/css/main.dd2dbb0f.css",
-    "main.js": "/race-scoreboard/static/js/main.6976405e.js",
+    "main.js": "/race-scoreboard/static/js/main.91c9ec40.js",
     "static/js/453.5e286292.chunk.js": "/race-scoreboard/static/js/453.5e286292.chunk.js",
     "index.html": "/race-scoreboard/index.html",
     "main.dd2dbb0f.css.map": "/race-scoreboard/static/css/main.dd2dbb0f.css.map",
-    "main.6976405e.js.map": "/race-scoreboard/static/js/main.6976405e.js.map",
+    "main.91c9ec40.js.map": "/race-scoreboard/static/js/main.91c9ec40.js.map",
     "453.5e286292.chunk.js.map": "/race-scoreboard/static/js/453.5e286292.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dd2dbb0f.css",
-    "static/js/main.6976405e.js"
+    "static/js/main.91c9ec40.js"
   ]
 }
