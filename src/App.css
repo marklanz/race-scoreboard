@@ -2,18 +2,56 @@ div[role=grid], #running {
   height: calc(100vh - 25px);
 }
 div[role=grid] {
-  width: 720px;
+  width: 960px;
 }
 #running {
   width: 100vw;
 }
-
-.live-time {
-  background-color: #000000;
-  color: #ffffff;
-  margin-left: 5em;
+.finisher {
+  height: 24px;
+  position: absolute;
+  margin-left: 6px;
+}
+.finisher.even {
+  background-color: #2c4ea4;
+  color: white;
+}
+.finisher.odd {
+  background-color: #8ccce1;
+}
+.finisher > div {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.finisher > .place {
+  width: 1.5em;
+  text-align: left;
+  font-weight: bold;
+}
+.finisher > .name {
+  width: 10em;
+  text-align: left;
+}
+.finisher > .team {
+  width: 6em;
+  font-size: .8em;
+  text-align: left;
+}
+.finisher > .time {
   width: 5em;
   text-align: right;
+  font-weight: bold;
+}
+
+.live-time {
+  margin-left: 6px;
+  width: 21.4em;
+  display: inline-block;
+  background-color: #000000;
+  color: #ffffff;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: bold;
 }
